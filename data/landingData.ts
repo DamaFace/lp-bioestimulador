@@ -1,36 +1,30 @@
-import labialAntes1 from '@/assets/ante-x-depois-img/labial-1.1.png'
-import labialDepois1 from '@/assets/ante-x-depois-img/labial-1.2.png'
-import labialAntes2 from '@/assets/ante-x-depois-img/labial-2.1.png'
-import labialDepois2 from '@/assets/ante-x-depois-img/labial-2.2.png'
-import labialAntes3 from '@/assets/ante-x-depois-img/labial-3.1.png'
-import labialDepois3 from '@/assets/ante-x-depois-img/labial-3.2.png'
-import labialAntes4 from '@/assets/ante-x-depois-img/labial-4.1.png'
-import labialDepois4 from '@/assets/ante-x-depois-img/labial-4.2.png'
+import bioAntes1 from '@/assets/ante-x-depois-img/bio-1.1.png'
+import bioDepois1 from '@/assets/ante-x-depois-img/bio-1.2.png'
+import bioAntes2 from '@/assets/ante-x-depois-img/bio-2.1.png'
+import bioDepois2 from '@/assets/ante-x-depois-img/bio-2.2.png'
+import bioAntes3 from '@/assets/ante-x-depois-img/bio-3.1.png'
+import bioDepois3 from '@/assets/ante-x-depois-img/bio-3.2.png'
+
+import depoimentoUser from '@/assets/depoimentos/user.png'
 
 // Dados para o carrossel (antes x depois)
 export const carrosselData = [
   {
     id: 1,
-    imagem_antes_url: labialAntes1.src,
-    imagem_depois_url: labialDepois1.src,
+    imagem_antes_url: bioAntes1.src,
+    imagem_depois_url: bioDepois1.src,
     legenda: "Transformação suave e natural com preenchimento labial"
   },
   {
     id: 2,
-    imagem_antes_url: labialAntes2.src,
-    imagem_depois_url: labialDepois2.src,
+    imagem_antes_url: bioAntes2.src,
+    imagem_depois_url: bioDepois2.src,
     legenda: "Harmonização completa realçando a beleza natural"
   },
   {
     id: 3,
-    imagem_antes_url: labialAntes3.src,
-    imagem_depois_url: labialDepois3.src,
-    legenda: "Resultado equilibrado e sofisticado"
-  },
-    {
-    id: 4,
-    imagem_antes_url: labialAntes4.src,
-    imagem_depois_url: labialDepois4.src,
+    imagem_antes_url: bioAntes3.src,
+    imagem_depois_url: bioDepois3.src,
     legenda: "Resultado equilibrado e sofisticado"
   }
 ];
@@ -38,21 +32,21 @@ export const carrosselData = [
 export const depoimentosData = [
   {
     id: 1,
-    nome_paciente: "Ana F.",
-    foto_paciente_url: labialDepois1.src,
+    nome_paciente: "Luana M.",
+    foto_paciente_url: bioDepois1.src,
     depoimento: "Sempre me incomodou a flacidez no rosto, mas após o tratamento com bioestimulador de colágeno na DamaFace, minha pele ficou muito mais firme e com aspecto rejuvenescido."
   },
   {
     id: 2,
-    nome_paciente: 'Ana Maria',
-    foto_paciente_url: labialDepois2.src,
+    nome_paciente: 'Tatiane S.',
+    foto_paciente_url: depoimentoUser.src,
     depoimento: "Senti que minha pele perdeu elasticidade com o tempo, e o bioestimulador de colágeno devolveu a firmeza e a vitalidade que eu queria. Me sinto muito mais confiante."
   },
   {
     id: 3,
-    nome_paciente: "Luiza",
-    foto_paciente_url: labialDepois3.src,
-    depoimento: "O tratamento com bioestimulador de colágeno na DamaFace foi incrível. Minha pele ganhou mais sustentação e vi resultados naturais e progressivos, sem perder minha essência."
+    nome_paciente: "Bruno F.",
+    foto_paciente_url: bioDepois3.src,
+    depoimento: "O tratamento com bioestimulador de colágeno na DamaFace foi incrível. Minha pele ganhou mais firmeza e vi resultados naturais e progressivos, sem perder minha essência."
   }
 ];
 

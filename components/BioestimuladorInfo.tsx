@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import background from 'public/back-full-face.jpeg';
+import background from 'public/back-bioestimulador.jpeg';
 
 const BioestimuladorInfo = () => {
 const areas = [
